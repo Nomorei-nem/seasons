@@ -1,4 +1,5 @@
 * {
+    font-family: Arial, Helvetica, sans-serif;
     border: 1px solid red;
 }
 
@@ -10,15 +11,82 @@
 .header {
     text-decoration: none;
     display: flex;
-    
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
 }
 
 .link {
     text-decoration: none;
-    color:white;
+    color: #f0c9ff;
+    font-size: 18px;
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f0c9ff;
 }
 
 .header,
 .desc {
-    background-color: ;
+    padding:20px 100px;
+    background-color: #4c1372;
+    color:#f0c9ff;
+    font-size: 18px;
+}
+
+.desc-text {
+    padding: 0px;
+    margin: 0;
+}
+
+.desc-img {
+    height: auto;
+    width: 400px;
+    border
+}
+
+.desc {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.desc-button,
+.footer-button {
+    max-width: 300px;
+    height: 30px;
+    font-weight: bold;
+    border-radius: 25%;
+    border: 2px solid #f0c9ff;
+    background-color: #c402f5;
+    color:#f0c9ff
+    
+}
+
+h3 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #4c1372;
+    background-color: #f0c9ff;
+    padding: 0;
+    margin: 0;
+}
+
+.season-img {
+    width: 300px;
+    height: 200px;
+}
+
+
+.footer {
+    display: flex;
+    color:#f0c9ff;
+    background-color: #4c1372;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    border-top:auto;
 }
