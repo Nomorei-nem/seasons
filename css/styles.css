@@ -44,7 +44,6 @@ h2 {
 .desc-img {
     height: auto;
     width: 400px;
-    border
 }
 
 .desc {
@@ -55,10 +54,10 @@ h2 {
 
 .desc-button,
 .footer-button {
-    max-width: 300px;
-    height: 30px;
+    min-width: 100px;
+    min-height: 30px;
     font-weight: bold;
-    border-radius: 25%;
+    border-radius: 20%;
     border: 2px solid #f0c9ff;
     background-color: #c402f5;
     color:#f0c9ff
@@ -66,20 +65,72 @@ h2 {
 }
 
 h3 {
+    display: flex;
+    justify-content: center;
     text-align: center;
     font-size: 36px;
     font-weight: bolder;
     color: #4c1372;
     background-color: #f0c9ff;
-    padding: 0;
-    margin: 0;
+    padding: 30px;
+    margin: 0px;
+}
+
+.container {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-wrap:wrap;
+    gap: 4em;
+    align-content: center;
+    padding: 30px;
+    background-color: #f0c9ff;
+}
+
+.text-str
+{     
+    width: 250px;
+    color: #4c1372;     
+    /* text-align: center;
+    display: flex;  
+    justify-content: center;
+    align-self: center */
+    
+}
+
+.text {
+    width: 250px;
+    color: #4c1372;
+    display: flex;
+    text-align: center;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
 }
 
 .season-img {
     width: 300px;
     height: 200px;
+    border: 5px solid #c402f5;
+    border-radius: 10%;
 }
 
+.quote {
+    background-color: #afa2b467;
+    color: #4c1372;
+    padding: 30px 200px;
+}
+
+.words {
+    font-size: 36px;
+    font-style:italic;
+}
+
+.pooh {
+    font-weight: bolder;
+    font-size: 25px;
+    text-align: end;
+}
 
 .footer {
     display: flex;
