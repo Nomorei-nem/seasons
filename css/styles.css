@@ -10,9 +10,15 @@
 .header {
     text-decoration: none;
     display: flex;
+    
 }
 
 .link {
     text-decoration: none;
-    
+    color:white;
+}
+
+.header,
+.desc {
+    background-color: ;
 }
