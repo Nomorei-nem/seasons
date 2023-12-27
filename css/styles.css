@@ -61,6 +61,7 @@ h2 {
 
 .desc-button,
 .footer-button {
+    cursor:pointer;
     min-width: 100px;
     min-height: 30px;
     /* max-width: 100px;
@@ -69,7 +70,25 @@ h2 {
     border-radius: 20px;
     border: 2px solid #f0c9ff;
     background-color: #c402f5;
-    color:#f0c9ff
+    color:#f0c9ff    
+    
+}
+
+button {
+    transition: 0.5s;
+    box-shadow: 0 5px #2b1930;
+}
+
+button:hover {
+    background-color: cyan;
+    transition: 0.5s;
+    color:#4c1372;
+}
+
+button:active {
+    background-color: cadetblue;
+    box-shadow: 0 2px #2b1930;
+    transform:translateY(4px);
 }
 
 h3 {
