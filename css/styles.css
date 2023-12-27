@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    margin: 0;
+}
+
 .logo {
     max-width: 100px;
     max-height: 100px;
@@ -130,7 +134,7 @@ h3 {
 }
 
 .quote {
-    background-color: #afa2b467;
+    background-color: #d1d1d1;
     color: #4c1372;
     padding: 30px 200px;
 }
